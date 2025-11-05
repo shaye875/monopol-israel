@@ -20,5 +20,5 @@ class Player:
         self.property.append(tile)
         print(f"have:")
         for p in self.property:
-            p.print()
+            print(f"{p.name} rent: {p.rent}")
 
